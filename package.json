@@ -1,0 +1,22 @@
+{
+  "name": "gen-ignore",
+  "version": "1.0.0",
+  "description": "Simple cli tool to generate gitignore file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/50UM3N/gen-ignore.git"
+  },
+  "author": "Soumen Khara",
+  "license": "MIT",
+  "bin": {
+    "gen-ignore": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/50UM3N/gen-ignore/issues"
+  },
+  "homepage": "https://github.com/50UM3N/gen-ignore#readme"
+}
