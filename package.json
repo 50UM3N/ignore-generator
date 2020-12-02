@@ -1,5 +1,5 @@
 {
-  "name": "gen-gitignore",
+  "name": "ignore-generator",
   "version": "1.0.0",
   "description": "Simple cli tool to generate gitignore file",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/50UM3N/gen-ignore.git"
+    "url": "git+https://github.com/50UM3N/ignore-generator.git"
   },
   "author": "Soumen Khara",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "genig": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/50UM3N/gen-girignore/issues"
+    "url": "https://github.com/50UM3N/ignore-generator/issues"
   },
-  "homepage": "https://github.com/50UM3N/gen-gitignore#readme"
+  "homepage": "https://github.com/50UM3N/ignore-generator#readme"
 }
