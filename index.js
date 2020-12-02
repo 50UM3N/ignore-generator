@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const ignores = process.argv[1].split("index.js")[0] + "ignores";
-const usage = `┏━╸┏━╸┏┓╻   ╻┏━╸┏┓╻┏━┓┏━┓┏━╸
-┃╺┓┣╸ ┃┗┫   ┃┃╺┓┃┗┫┃ ┃┣┳┛┣╸
-┗━┛┗━╸╹ ╹   ╹┗━┛╹ ╹┗━┛╹┗╸┗━╸
-gen-ignore is a command line tool that generate gitignore file for specific programming language
+const usage = `┏━╸┏━╸┏┓╻   ┏━╸╻╺┳╸╻┏━╸┏┓╻┏━┓┏━┓┏━╸
+┃╺┓┣╸ ┃┗┫   ┃╺┓┃ ┃ ┃┃╺┓┃┗┫┃ ┃┣┳┛┣╸
+┗━┛┗━╸╹ ╹   ┗━┛╹ ╹ ╹┗━┛╹ ╹┗━┛╹┗╸┗━╸
+genig is a command line tool that generate gitignore file for specific programming language
 
-Usage gen-ignore [option]
-      gen-ignore [programing language]
+Usage genig [option]
+      genig [programing language]
 
 Options:
  -v or --version                    version of the tool
  -h or --help                       help menu 
 
-Documentation can be found in https://50um3n.github.io/gen-ignore`;
+Documentation can be found in https://50um3n.github.io/gen-gitignore`;
 
 const ignoreFileName = ".gitignore";
 
